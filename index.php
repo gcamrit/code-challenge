@@ -8,6 +8,7 @@
 **/
 require_once __DIR__.'/SyncDispatcher.php';
 
+// yes it should be resolved from Dependency Injection Container.
 $event = new SyncDispatcher;
 
 // I am asuming here that if the SyncDispatcher is used By StateMachine class for dispatching events
