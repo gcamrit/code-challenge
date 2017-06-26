@@ -1,5 +1,8 @@
 <?php
+
+
 /**
+* @Task https://github.com/namshi/coding-challenges/blob/master/senior-api-engineer.md#1-events-to-the-rescue
 * Yes we can use composer for PSR-4 autoloading
 * Yes we can pull in some dedicated event handler like symfony/event-dispatcher, thephpleague/event etc.
 **/
