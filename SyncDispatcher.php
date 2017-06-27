@@ -23,7 +23,7 @@ class SyncDispatcher implements EventDispatcher
         if(!array_key_exists($eventName, $this->events)) {
             return false;
         }
-        // we can do check if the $callable is callable of not here
+        // we can do check if the $callable is callable or not here
         // we might expect a class instead too like IWillHandlingIt::class
 
         $callable($this->events[$eventName]);
